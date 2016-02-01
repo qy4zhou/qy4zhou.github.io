@@ -1,6 +1,5 @@
 body{
     font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-    font-weight: 800;
     border: transparent;
 }
 
@@ -19,6 +18,10 @@ ul a{
 
 .navbar{
     background-image: none;
+}
+
+.navbar a{
+    font-weight: bold;
 }
 
 #liEdit:hover{
@@ -66,13 +69,6 @@ h1:hover{
     line-height: 400px;
 }
 
-.aEdit {
-    text-decoration: none !important;
-    color: #008080;
-    font-size: 150%;
-    font-weight: bold;
-}
-
 .aEdit:hover{
     color: #66CDAA;
 }
@@ -86,22 +82,23 @@ h2{
     padding-bottom: 10px;
 }
 
-@media only screen and (max-width: 300px){
-    h1 {
-        padding-top: 5px;
-        font-size: 200%;
-        font-weight: 900;
-    }
+.accordionModify a{
+    text-decoration: none !important;
+    color: #008080;
+    font-size: 150%;
+    font-weight: bold;
+}
 
-    h2 {
-        color: #5F9EA0;
-        font-size: 120%;
-        padding-bottom: 5px;
-    }
+.accordionModify a:hover{
+}
+
+.well{
+    background: #FFFFF0;
 }
 
 p {
     color: #5F9EA0;
+    font-size: 120%;
 }
 
 footer p
@@ -109,24 +106,46 @@ footer p
     padding:10px;
 }
 
+
+
 .panel{
     background: transparent !important;
     border: none !important;
+    box-shadow: none !important;
+    padding: 0;
 }
 
 .panel-body{
     padding: 0;
 }
 
-.removePadding{
-    margin:0;
-    padding:0;
-}
+@media only screen and (max-width: 500px){
+    .extra-largeH1 {
+        font-size: 220%;
+        font-weight: 900;
+    }
 
-.removePadding p {
-        margin:0;
-    padding:0;
+    .text-verticle{
+    display: inline-block;
+    vertical-align: top;
 }
+}
+@media only screen and (max-width: 300px){
 
+
+    h2 {
+        color: #5F9EA0;
+        font-size: 120%;
+        padding-bottom: 5px;
+    }
+
+    .accordionModify a {
+        font-size: 120%;
+    }
+
+    p{
+        font-size: 100%;
+    }
+}
 
 /* http://v4-alpha.getbootstrap.com/components/collapse/ */
