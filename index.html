@@ -24,39 +24,6 @@
             });
         </script>
 
-        <!--     <script>
-/* slide aboutDetails*/
-$(document).on('click', '.panel-heading span.clickable', function (e) {
-var $this = $(this);
-if (!$this.hasClass('panel-collapsed')) {
-$this.parents('.panel').find('.panel-body').slideUp();
-$this.addClass('panel-collapsed');
-$this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
-} else {
-$this.parents('.panel').find('.panel-body').slideDown();
-$this.removeClass('panel-collapsed');
-$this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
-}
-});
-$(document).on('click', '.panel div.clickable', function (e) {
-var $this = $(this);
-if (!$this.hasClass('panel-collapsed')) {
-$this.parents('.panel').find('.panel-body').slideUp();
-$this.addClass('panel-collapsed');
-$this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
-} else {
-$this.parents('.panel').find('.panel-body').slideDown();
-$this.removeClass('panel-collapsed');
-$this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
-}
-});
-$(document).ready(function () {
-$('.panel-heading span.clickable').click();
-$('.panel div.clickable').click();
-});
-
-
-</script> -->
     </head>
 
     <body class = "pageBackground">
@@ -70,7 +37,6 @@ $('.panel div.clickable').click();
                             <span class = "icon-bar"></span>
                             <span class = "icon-bar"></span>
                         </button>
-                        <!--<a class = "navbar-brand"><b class="glyphicon glyphicon-star"></b></a> -->
                     </div><!--/navbar header-->
                     <div class = "navbar-collapse collapse">
                         <ul class = "nav navbar-nav navbar-right">
@@ -110,7 +76,17 @@ $('.panel div.clickable').click();
                     <div id = "aboutDetails" class = "collapse panel panel-default col-md-6">
 
 
-                        <a class = "aEdit img-rounded" role="button" data-toggle="collapse" href="#aboutGoal" aria-expanded="false" aria-controls="aboutGoal"><h3>Career Goal</h3></a>
+                        <h2 class = "text-center"><b><span style = "color:#008080">To Make a "Katie"</span></b></h2>
+                        <p>Yield: 1<br>
+                        Time: 20+ years</p>
+
+
+<!--------------------------ACCORDION---------------------------->
+
+
+
+<div id="accordion" role="tablist" aria-multiselectable="true">
+                            <a class = "aEdit img-rounded" role="button" data-toggle="collapse" href="#aboutGoal" aria-expanded="false" aria-controls="aboutGoal"><h3>100ml of Career Goal</h3></a>
                         <div class="collapse" id="aboutGoal">
                             <p class = "removePadding">
                             <div class="well">
@@ -126,10 +102,7 @@ $('.panel div.clickable').click();
                             </p>
                     </div> <!--collapse-->
 
-
-
-
-                                            <a class = "aEdit img-rounded" role="button" data-toggle="collapse" href="#aboutEducation" aria-expanded="false" aria-controls="aboutEducation"><h3>Education</h3></a>
+                                            <a class = "aEdit img-rounded" role="button" data-toggle="collapse" href="#aboutEducation" aria-expanded="false" aria-controls="aboutEducation"><h3>2 Cups of Education</h3></a>
                         <div class="collapse" id="aboutEducation">
                             <p class = "removePadding">
                             <div class="well">
@@ -145,27 +118,14 @@ $('.panel div.clickable').click();
                             </p>
                     </div> <!--collapse-->
 
-
-
-
-
-                                            <a class = "aEdit img-rounded" role="button" data-toggle="collapse" href="#aboutSkills" aria-expanded="false" aria-controls="aboutSkills"><h3>Technical Skills</h3></a>
+                                            <a class = "aEdit img-rounded" role="button" data-toggle="collapse" href="#aboutSkills" aria-expanded="false" aria-controls="aboutSkills"><h3>A Package of Technical Skills</h3></a>
                         <div class="collapse" id="aboutSkills">
                             <p class = "removePadding">
                             <div class="well">
                                 <div class="swell">
                                     <div class="row-fluid">
                                         <div class="span9">
-
-
-                                            <div class="col-xs-12">
-                                <div class="col-xs-3"><div class="mini-box"><p>HTML</p></div></div>
-                                <div class="col-xs-3"><div class="mini-box"><p>CSS</p></div></div>
-                                <div class="col-xs-3"><div class="mini-box"><p>JavaScript</p></div></div>
-                                <div class="col-xs-3"><div class="mini-box"><p>C#</p></div></div>
-                            </div><!--/col-xs-12-->
-
-
+                                            <p>HTML, CSS, JavaScript, C#, SQL</p>
                                         </div><!--/span9-->
                                     </div><!--/row-fluid-->
                                 </div><!--/swell-->
@@ -174,7 +134,7 @@ $('.panel div.clickable').click();
                     </div> <!--collapse-->
 
 
-                                                       <a class = "aEdit img-rounded" role="button" data-toggle="collapse" href="#aboutHobbies" aria-expanded="false" aria-controls="aboutHobbies"><h3>Education</h3></a>
+                                                       <a class = "aEdit img-rounded" role="button" data-toggle="collapse" href="#aboutHobbies" aria-expanded="false" aria-controls="aboutHobbies"><h3>Sprinkles of Soft Skills</h3></a>
                         <div class="collapse" id="aboutHobbies">
                             <p class = "removePadding">
                             <div class="well">
@@ -191,6 +151,8 @@ $('.panel div.clickable').click();
                     </div> <!--collapse-->
 
 
+
+        </div><!--accordion-->
 
             </div> <!--/aboutDetails-->
         </div><!--panel-body-->
