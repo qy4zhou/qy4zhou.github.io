@@ -1,6 +1,7 @@
 body{
     font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
     font-weight: 800;
+    border: transparent;
 }
 
 .pageBackground{
@@ -65,8 +66,23 @@ h1:hover{
     line-height: 400px;
 }
 
-h2 {
-    color: #5F9EA0;
+.aEdit {
+    text-decoration: none !important;
+    color: #008080;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.aEdit:hover{
+    color: #66CDAA;
+}
+
+.aEdit:visited{
+    color: #008080;
+}
+
+h2{
+    color: #5F9EA0 !important;
     padding-bottom: 10px;
 }
 
@@ -86,6 +102,10 @@ h2 {
 
 p {
     color: #5F9EA0;
+}
+
+footer p
+{
     padding:10px;
 }
 
@@ -98,4 +118,15 @@ p {
     padding: 0;
 }
 
-/*http://stackoverflow.com/questions/22185561/how-to-build-a-panel-carousel-in-bootstrap-3
+.removePadding{
+    margin:0;
+    padding:0;
+}
+
+.removePadding div {
+        margin:0;
+    padding:0;
+}
+
+
+/* slider ends */
