@@ -1,5 +1,5 @@
 body{
-	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
     font-weight: 800;
 }
 
@@ -21,7 +21,7 @@ ul a{
 }
 
 #liEdit:hover{
-    color: blue;
+    color: #FFFAF0;
 }
 
 #liEdit{
@@ -50,3 +50,10 @@ h2 {
     color: #5F9EA0;
     padding-bottom: 10px;
 }
+
+p {
+    color: #5F9EA0;
+    padding:10px;
+}
+
+/*working on line 50
