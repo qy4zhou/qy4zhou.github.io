@@ -12,9 +12,13 @@
         <link href="css/bootstrap.min.css" rel="stylesheet"/>
         <!-- Custom -->
         <link href="css/main.css" rel="stylesheet"/>
+
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+
     </head>
 
-    <body  class = "pageBackground">
+    <body class = "pageBackground">
         <div class = "container">
             <div class = "row">
                 <div class = "navbar navbar-default backgroundNav">
@@ -29,9 +33,10 @@
                     </div><!--/navbar header-->
                     <div class = "navbar-collapse collapse">
                         <ul class = "nav navbar-nav navbar-right">
-                            <li><a id = "liEdit" href = "#">About</a></li>
+                            <li><a id = "liEdit" href = "#about">About</a></li>
                             <li><a id = "liEdit" href = "#">Portfolio</a></li>
                             <li><a id = "liEdit" href = "#">Contact</a></li>
+
                         </ul>
                     </div><!--/navbar-collapse collapse-->
                 </div><!--/nav navbar-default-->
@@ -48,17 +53,28 @@
             </div><!--/container-->
 
             <div class = "container">
-                <div class = "row">
+                <div class = "row" id = "about">
+                    <div class = "panel panel-default col-md-6">
+                        <div class = "panel-body">
                         <img class = "img-responsive" src = "images/me.png" alt = "Katie's avatar"/>
-                        <p>Recipe for a "Katie":</p>
+                    </div><!--panel-body-->
+                    </div><!--panel-default-->
+
+                    <div class = "panel panel-default col-md-6">
+                        <div class = "panel-body textContainer hidden-xs">
+
+                        <h1 class ="extra-largeH1 text-verticle">Welcome!</h1>
+                            <p> test test test</p>
+
+                    </div><!--panel-body-->
+                    </div><!--panel-default-->
+
                 </div><!--/row-->
 
             </div><!--/container-->
-
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
+            </div><!--background-->
             </body>
-        </div><!--background--><br>
+        <br>
 
         <footer>
             <div class = "background img-rounded">
