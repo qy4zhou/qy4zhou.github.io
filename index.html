@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Smile</title>
+        <title>Hello!</title>
 
         <link href="css/normalize.css" rel="stylesheet"/>
         <!-- Bootstrap -->
@@ -28,14 +28,15 @@
     </head>
     <body class = "pageBackground">
         <div class = "container">
-            <div class = "row">
+
+            <div class = "row" id = "top">
+                <!--                                                   <a href ="#top" class = "icon starEdit glyphicon glyphicon-star" title = "Top" alt = "Top"></a>-->
                 <div class = "navbar navbar-default backgroundNav">
-                    <div class = "navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class = "sr-only">Menu</span>
-                            <span class = "icon-bar"></span>
-                            <span class = "icon-bar"></span>
-                            <span class = "icon-bar"></span>
+                    <div class = "navbar-header">                               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class = "sr-only">Menu</span>
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
                         </button>
                     </div><!--/navbar header-->
                     <div class = "navbar-collapse collapse">
@@ -68,7 +69,7 @@
 
                     <div id = "welcome" class = "panel panel-default col-md-6">
                         <div class = "panel-body textContainer">
-                            <h1 class ="extra-largeH1 text-verticle">Welcome!</h1>
+                            <h1 class ="text-verticle">Welcome!</h1>
                         </div><!--panel-body-->
                     </div><!--panel-default-->
                     <br>
@@ -77,7 +78,7 @@
 
                         <h2 class = "text-center"><b><span style = "color:#008080">The Recipe</span></b></h2>
                         <div class = "row">
-                        <div class = "col-xs-6"><p>Yield: 1 "Katie"</div>
+                            <div class = "col-xs-6"><p>Yield: 1x Katie</div>
                             <div class = "col-xs-6 text-right"><p>Time: 25 years</p></div>
 
                         </div>
@@ -109,7 +110,7 @@
                                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                     <div class = "well">
                                         <p>
-                                            <span style ="color: #008080; font-weight: bold">Conestoga College:</span> in pursuit for a certificate in Computer Application Development<br>
+                                            <span style ="color: #008080; font-weight: bold">Conestoga College:</span> in pursuit of a certificate in Computer Application Development<br>
                                             <span style ="color: #008080; font-weight: bold">University of Waterloo: </span>Honours B.A with Economics Major and Finance Specialization<br>
                                         </p>
                                     </div> <!--/well-->    </div>
@@ -123,11 +124,12 @@
                                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                     <div class = "well">
                                         <p>HTML, CSS, JavaScript, SQL, C#</p>
+                                        <span style ="color: #008080; font-weight: bold">Also learning: </span>Java, Git, PHP, Python
                                     </div> <!--/well-->    </div>
                             </div> <!--/panel-success-->
 
 
-                                <div class="panel panel-success">
+                            <div class="panel panel-success">
                                 <div class="panel-heading" role="tab" id="headingFour">
                                     <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                         1x Bottle Software/Opensource Knowledge
@@ -160,23 +162,73 @@
                         </div> <!--/accordion-->
                     </div> <!--/aboutDetails-->
 
-
                     <!--------------------------/ACCORDION---------------------------->
 
                 </div><!--/row-->
+                <hr>
+
             </div><!--/container-->
 
+        <div class = "container">
+            <div class ="panel panel-dfault panelSpecial">
+                <div class = "panel-body">
             <!--------------------------Portfolio---------------------------->
             <div class = "container" id = "portfolio">
-            </div><!--/container-->
-        </div><!--/background-->
-    </body>
+                <div class="panel panel-default">
 
-    <footer>
-        <div class = "background img-rounded">
-            <div class = "container text-center">
-                <p><span class = "glyphicon glyphicon-copyright-mark"></span> Graphics and template designed by Qinyuan (Katie) Zhou 2016</p>
-            </div><!--background-->
-        </div><!--container-->
-    </footer>
-</html>
+                    <div class = "row">
+                        <div class = "col-xs-4"><img class = "img-responsive img-rounded" src = "/images/demo2.jpg" alt = "A website for an Edible Pet Project"/></div>
+                                                <!-- Fat Cat -->
+
+                        <div class = "col-xs-4">
+                            <input type="image" alt = "A website dedicated to a VERY fat cat" src="/images/demo1-1.jpg" class = "img-responsive img-rounded" data-toggle="modal" data-target="#myModal">
+
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 class = "text-center modal-title" id="myModalLabel">Meet Blacky, he is a VERY fat cat!</h2>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            <p class = "text-center">This is a simple 4-page website, dedicated to my darling cat, who has just celebrated his 15th birthday! The site was written from scratch, with HTML and CSS.</p><br>
+                                            <img class = "img-responsive img-rounded" src = "/images/demo1-1.jpg" alt = "Page demo of the Fat Cat website"/>
+                                            <img class = "img-responsive img-rounded" src = "/images/demo1-2.jpg" alt = "Page demo of the Fat Cat website"/>
+                                            <img class = "img-responsive img-rounded" src = "/images/demo1-3.jpg" alt = "Page demo of the Fat Cat website"/>
+                                            <img class = "img-responsive img-rounded" src = "/images/demo1-4.jpg" alt = "Page demo of the Fat Cat website"/>
+                                            <img class = "img-responsive img-rounded" src = "/images/Blacky.jpg" alt = "A photo of Blacky"/>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/Fat Cat-->
+
+                        <div class = "col-xs-4"><img class = "img-responsive img-rounded" src = "/images/demo3.jpg" alt = "A website dedicated to Asian vegetables"/></div>
+                    </div>
+                </div><!--/container-->
+                </div>
+                                </div>
+
+                </div>
+            </div>
+        </div><!--/background-->
+
+            <!--------------------------Test---------------------------->
+
+
+            </body>
+
+        <footer>
+            <div class = "background img-rounded">
+                <div class = "container text-center">
+                    <p><span class = "glyphicon glyphicon-copyright-mark"></span> Graphics and template designed by Qinyuan (Katie) Zhou 2016</p>
+                </div><!--background-->
+            </div><!--container-->
+        </footer>
+        </html>
