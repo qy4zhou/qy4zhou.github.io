@@ -49,6 +49,7 @@ color: #66CDAA;
     border: none;
 }
 
+
 h1 {
     color: #008080;
     padding-top: 10px;
@@ -109,6 +110,12 @@ h2{
 .accordionModify a:hover{
 }
 
+#contact .glyphicon{
+    font-size: 50px;
+    color:#66CDAA;
+}
+
+
 .well{
     background: #FFFFF0;
     padding: 5px 20px;
@@ -165,6 +172,8 @@ footer p
         font-size: 100%;
     }
 }
+
+
 
 
 /* http://v4-alpha.getbootstrap.com/components/collapse/ */
