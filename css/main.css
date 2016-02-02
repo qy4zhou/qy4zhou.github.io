@@ -16,9 +16,6 @@ ul a{
     font-size: 160%;
 }
 
-.navbar{
-    background-image: none;
-}
 
 .navbar a{
     font-weight: bold;
@@ -94,6 +91,7 @@ h2{
 
 .well{
     background: #FFFFF0;
+    padding: 5px 20px;
 }
 
 p {

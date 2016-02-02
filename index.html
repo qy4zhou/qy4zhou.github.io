@@ -17,11 +17,12 @@
         <script>
             /* hide welcome panel*/
             $(document).ready(function(){
-                $("#aboutHide").click(function(){
+                $(".aboutHide").click(function(){
                     $("#welcome").hide();
                     $("#aboutDetails").show();
                 });
             });
+
         </script>
 
     </head>
@@ -39,8 +40,8 @@
                     </div><!--/navbar header-->
                     <div class = "navbar-collapse collapse">
                         <ul class = "nav navbar-nav navbar-right">
-                            <li><a id = "aboutHide" id = "liEdit" href = "#about">About</a></li>
-                            <li><a id = "liEdit" href = "#">Portfolio</a></li>
+                            <li><a class = "aboutHide" id = "liEdit" href = "#about">About</a></li>
+                            <li><a id = "liEdit" href = "#portfolio">Portfolio</a></li>
                             <li><a id = "liEdit" href = "#">Contact</a></li>
                         </ul>
                     </div><!--/navbar-collapse collapse-->
@@ -57,8 +58,8 @@
                 </div> <!--/row-->
             </div><!--/container-->
 
-            <div class = "container">
-                <div class = "row" id = "about">
+            <div id = "about" class = "container" >
+                <div class = "row">
                     <div class = "panel panel-default col-md-6">
                         <div class = "panel-body">
                             <img class = "img-responsive" src = "images/me.png" alt = "Katie's avatar"/>
@@ -75,10 +76,11 @@
 
 
                         <h2 class = "text-center"><b><span style = "color:#008080">The Recipe</span></b></h2>
-                        <p>Yield: 1 "Katie"<br>
-                            Time: 25 years</p>
+                        <div class = "row">
+                        <div class = "col-xs-6"><p>Yield: 1 "Katie"</div>
+                            <div class = "col-xs-6 text-right"><p>Time: 25 years</p></div>
 
-
+                        </div>
                         <!--------------------------ACCORDION---------------------------->
 
 
@@ -86,40 +88,75 @@
                             <div class="panel panel-success">
                                 <div class="panel-heading" role="tab" id="headingOne">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        1x Peel of Career Goal
+                                        1x Heart of Career Goal
                                     </a>
                                 </div>
                                 <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                     <div class = "well">
-                                        <p>Currently Seeking: a co-op OR permanent position
+                                        <p><span style ="color: #008080; font-weight: bold"> Seeking:</span>co-op OR permanent position starting May, 2016
                                             <br>
-                                    Preferred Position: Front-End Developer, QA, or Business Analyst<br>
-                                            End Goal: work as freelancer, while volunteering aboard</p>
+                                            <span style ="color: #008080; font-weight: bold"> Preferred Position:</span> Front-End Developer, QA, or Business Analyst<br>
+                                            <span style ="color: #008080; font-weight: bold"> End Goal:</span> work as freelancer while volunteering aboard</p>
                                     </div> <!--/well-->
                                 </div>
                             </div>
                             <div class="panel panel-success">
                                 <div class="panel-heading" role="tab" id="headingTwo">
                                     <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        5x Litre of Education
+                                        A Pinch of Education
                                     </a>
                                 </div>
                                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                     <div class = "well">
-                                        <p>...</p>
+                                        <p>
+                                            <span style ="color: #008080; font-weight: bold">Conestoga College:</span> in pursuit for a certificate in Computer Application Development<br>
+                                            <span style ="color: #008080; font-weight: bold">Uiversity of Waterloo:</span>Honours B.A with Economics Major and Finance Specialization<br>
+                                        </p>
                                     </div> <!--/well-->    </div>
                             </div>
                             <div class="panel panel-success">
                                 <div class="panel-heading" role="tab" id="headingThree">
                                     <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        3x Pack of Technical Skills
+                                        5x Pack of Technical Skills
                                     </a>
                                 </div>
                                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                     <div class = "well">
-                                        <p>...</p>
+                                        <p>HTML, CSS, JavaScript, SQL, C#</p>
                                     </div> <!--/well-->    </div>
                             </div> <!--/panel-success-->
+
+
+                                <div class="panel panel-success">
+                                <div class="panel-heading" role="tab" id="headingFour">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        1x Bottle Software/Opensource Knowledge
+                                    </a>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                    <div class = "well">
+                                        <p><span style ="color: #008080; font-weight: bold"> Microsoft:</span> Visual Studio (WPF, MS.NET), SQL, Word, Excel, PowerPoint, Publisher, Project, Visio <br>
+                                            <span style ="color: #008080; font-weight: bold"> Open Source/Others:</span> GitHub, OpenShift, GIMP, PaintShop Pro, OsTicket, CODAPPS, PhoneGap, Bootstrap, Brackets</p>
+                                    </div><!--/well-->    </div>
+                            </div> <!--/panel-success-->
+
+
+
+                            <div class="panel panel-success">
+                                <div class="panel-heading" role="tab" id="headingFive">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        1x Jug of Additional Academic Entertainment
+                                    </a>
+                                </div>
+                                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                    <div class = "well">
+                                        <p><span style ="color: #008080; font-weight: bold">Currently enrolled with Coursera.org (Courses):</span><br>Coding Mobile Apps for Entrepreneurs<br>Responsive Web Design<br>Web Application Development: Testing and Deployment<br><br>
+                                            <span style ="color: #008080; font-weight: bold"> Memberships:</span><br> KWSQA (for Quality Assurance)<br> KW Big Data P2P<br> 3D Printing And Design Meetup<br>Canada's Technology Triangle .Net User Group</p>
+                                    </div><!--/well-->    </div>
+                            </div> <!--/panel-success-->
+
+
+
                         </div> <!--/accordion-->
                     </div> <!--/aboutDetails-->
 
@@ -128,18 +165,18 @@
 
                 </div><!--/row-->
             </div><!--/container-->
+
+            <!--------------------------Portfolio---------------------------->
+            <div class = "container" id = "portfolio">
+            </div><!--/container-->
         </div><!--/background-->
     </body>
 
     <footer>
         <div class = "background img-rounded">
             <div class = "container text-center">
-                <p><span class = "glyphicon glyphicon-copyright-mark"></span> Graphics and layout designed by Qinyuan (Katie) Zhou 2016</p>
+                <p><span class = "glyphicon glyphicon-copyright-mark"></span> Graphics and template designed by Qinyuan (Katie) Zhou 2016</p>
             </div><!--background-->
         </div><!--container-->
     </footer>
-
-
-
-
 </html>
