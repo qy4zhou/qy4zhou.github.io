@@ -73,6 +73,7 @@ h1:hover{
 .text-verticle{
     display: inline-block;
     vertical-align: middle;
+    horizontal-align: center;
 }
 
 .panelSpecial > .panel-body{
