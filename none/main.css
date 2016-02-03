@@ -1,4 +1,4 @@
-.backgroundGradient{
+.pageBackground{
     background: #FAEBD7;
     background: -webkit-linear-gradient(10deg, #FAEBD7 40%, #66CDAA 10%);
     background: -o-linear-gradient(10deg, #FAEBD7 40%, #66CDAA 10%);
@@ -7,95 +7,26 @@
     height: 100%;
 }
 
-.backgroundNav{
-    background: transparent;
-    border: none;
-}
 
-.backgroundBody{
-    background: #FFFAF0;
-    margin: auto;
-    max-width: 1400px;
-}
+
+
 
 body{
     font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
     border: transparent;
 }
 
-h1, h2 {
-    text-align: center;
-}
-
-img {
-    margin: auto;
-}
-
-.panel{
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-    padding: 0;
-}
-
-.panel-body{
-    padding: 0;
-}
-
-/*-------------nav------------------*/
-
-
-.navbar-collapse{
-    border: none;
-}
-
-#navSection a{
-    color: #696969;
-}
-
-#navSection a:hover{
-    color: #FFFAF0;
-}
-
-a{
+ul a{
     font-size: 160%;
-        font-weight: bold;
 }
 
 
 .navbar a{
-
-}
-
-/*-------------banner (welcome/title)------------------*/
-
-.welcome {
-    font-size: 600%;
-    display: inline-block;
-    vertical-align: middle;
-    horizontal-align: center;
-}
-
-.textContainer {
-    height: 430px;
-    line-height: 400px;
-    text-align: center;
-}
-
-/*-------------accordion----------------*/
-
-.subtitle{
-    color: #008080;
     font-weight: bold;
 }
 
-/*---------portfolio--------*/
-
-.backgroundPaddingPanel > .panel-body{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    background: #FAEBD7;
+#liEdit:hover{
+    color: #FFFAF0;
 }
 
 /*
@@ -106,6 +37,21 @@ position: fixed;
 color: #66CDAA;
 }
 */
+
+#liEdit{
+    color: #696969;
+}
+
+.background{
+    background: #FFFAF0;
+    margin: auto;
+    max-width: 1400px;
+}
+
+.backgroundNav{
+    background: transparent;
+    border: none;
+}
 
 
 h1 {
@@ -119,13 +65,32 @@ h1 {
     margin: auto;
 }
 
-
+.extra-largeH1 {
+    font-size: 600%;
+}
 
 h1:hover{
     color: #66CDAA;
 }
 
+.text-verticle{
+    display: inline-block;
+    vertical-align: middle;
+    horizontal-align: center;
+}
 
+.panelSpecial > .panel-body{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background: #FAEBD7;
+}
+
+.textContainer {
+    height: 430px;
+    line-height: 400px;
+    text-align: center;
+}
 
 .aEdit:hover{
     color: #66CDAA;
@@ -172,18 +137,27 @@ footer p
 }
 
 
+.panel{
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0;
+}
+
+.panel-body{
+    padding: 0;
+}
+
 @media only screen and (max-width: 500px){
-    .welcome {
+    .extra-largeH1 {
         font-size: 220%;
         font-weight: 900;
         margin: auto;
-        display: inline-block;
-        vertical-align: top;
     }
 
-        .textContainer {
-        height: 20px;
-        text-align: center;
+    .text-verticle{
+        display: inline-block;
+        vertical-align: top;
     }
 }
 @media only screen and (max-width: 300px){
@@ -202,9 +176,15 @@ footer p
         font-size: 100%;
     }
 
+    .textContainer {
+    height: 50px;
+    text-align: center;
+}
+
     #contact h1, #contact h2{
-        font-size: 130%;
-    }
+    font-size: 130%;
+
+}
 
 }
 

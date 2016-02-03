@@ -1,0 +1,326 @@
+<!--http://www.rapidtables.com/web/color/html-color-codes.htm-->
+<!DOCTYPE html>
+<html  class = "pageBackground" lang="en" >
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hello!</title>
+
+        <link href="css/normalize.css" rel="stylesheet"/>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <!-- Custom -->
+        <link href="css/main.css" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script>
+            /* hide welcome panel*/
+            $(document).ready(function(){
+                $(".aboutHide, #welcome").click(function(){
+                    $("#welcome").hide();
+                    $("#aboutDetails").show();
+                });
+            });
+
+        </script>
+
+    </head>
+    <body class = "pageBackground">
+        <div class = "container">
+
+            <div class = "row" id = "top">
+                <!--                                                   <a href ="#top" class = "icon starEdit glyphicon glyphicon-star" title = "Top" alt = "Top"></a>-->
+                <div class = "navbar navbar-default backgroundNav">
+                    <div class = "navbar-header">                               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class = "sr-only">Menu</span>
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                        </button>
+                    </div><!--/navbar header-->
+                    <div class = "navbar-collapse collapse">
+                        <ul class = "nav navbar-nav navbar-right">
+                            <li><a class = "aboutHide" id = "liEdit" href = "#about">About</a></li>
+                            <li><a id = "liEdit" href = "#portfolio">Portfolio</a></li>
+                            <li><a id = "liEdit" href = "#contact">Contact</a></li>
+                        </ul>
+                    </div><!--/navbar-collapse collapse-->
+                </div><!--/nav navbar-default-->
+            </div><!--/row-->
+        </div> <!--/container-->
+
+        <div class="background img-rounded">
+            <div class = "container">
+                <div class = "row">
+                    <h1 class = "text-center">Katie Zhou</h1>
+                    <h2 class = "text-center">"Inquisitive for knowledge and aim to achieve"</h2>
+                    <hr>
+                </div> <!--/row-->
+            </div><!--/container-->
+
+            <div id = "about" class = "container" >
+                <div class = "row">
+                    <div class = "panel panel-default col-md-6">
+                        <div class = "panel-body">
+                            <img class = "img-responsive" src = "images/me.png" alt = "Katie's avatar"/>
+                        </div><!--panel-body-->
+                    </div><!--panel-default-->
+
+                    <div id = "welcome" class = "panel panel-default col-md-6">
+                        <div class = "panel-body textContainer">
+                            <h1 class ="extra-largeH1 text-verticle">Welcome!</h1>
+                        </div><!--panel-body-->
+                    </div><!--panel-default-->
+                    <br>
+                    <div id = "aboutDetails" class = "collapse panel panel-default col-md-6">
+
+
+                        <h2 class = "text-center"><b><span style = "color:#008080">The Recipe</span></b></h2>
+                        <div class = "row">
+                            <div class = "col-xs-6"><p>Yield: 1x Katie</div>
+                            <div class = "col-xs-6 text-right"><p>Time: 25 years</p></div>
+
+                        </div>
+                        <!--------------------------ACCORDION---------------------------->
+
+
+                        <div id="accordion" class = "accordionModify" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-success">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        1x Heart of Career Goal <span class = "pull-right glyphicon glyphicon-plus"></span>
+                                    </a>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class = "well">
+                                        <p><span style ="color: #008080; font-weight: bold"> Seeking:</span> freelance OR co-op OR permanent position starting May, 2016
+                                            <br>
+                                            <span style ="color: #008080; font-weight: bold"> Preferred Position:</span> Front-End Developer, QA, or Business Analyst<br>
+                                            <span style ="color: #008080; font-weight: bold"> End Goal:</span> work as freelancer while volunteering abroad</p>
+                                    </div> <!--/well-->
+                                </div>
+                            </div>
+                            <div class="panel panel-success">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        A Pinch of Education <span class = "pull-right glyphicon glyphicon-plus"></span>
+                                    </a>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class = "well">
+                                        <p>
+                                            <span style ="color: #008080; font-weight: bold">Conestoga College:</span> pursuing a certificate in Computer Application Development<br>
+                                            <span style ="color: #008080; font-weight: bold">University of Waterloo: </span>Honours B.A with Economics Major and Finance Specialization<br>
+                                        </p>
+                                    </div> <!--/well-->    </div>
+                            </div>
+                            <div class="panel panel-success">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        5x Pack of Technical Skills <span class = "pull-right glyphicon glyphicon-plus"></span>
+                                    </a>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class = "well">
+                                        <p>HTML, CSS, JavaScript, SQL, C#<br>
+                                        <span style ="color: #008080; font-weight: bold">Also learning: </span>Java, Git, PHP, Python</p>
+                                    </div> <!--/well-->    </div>
+                            </div> <!--/panel-success-->
+
+
+                            <div class="panel panel-success">
+                                <div class="panel-heading" role="tab" id="headingFour">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        1x Bottle Software/Opensource Knowledge <span class = "pull-right glyphicon glyphicon-plus"></span>
+                                    </a>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                    <div class = "well">
+                                        <p><span style ="color: #008080; font-weight: bold"> Microsoft:</span> Visual Studio (WPF, MS.NET), SQL, Visual Paradigm, Word, Excel, PowerPoint, Publisher, Project, Visio <br><br>
+                                            <span style ="color: #008080; font-weight: bold"> Open Source/Others:</span> GitHub, OpenShift, SQLite GIMP, PaintShop Pro, OsTicket, CODAPPS, PhoneGap, Bootstrap, Brackets</p>
+                                    </div><!--/well-->    </div>
+                            </div> <!--/panel-success-->
+
+
+
+                            <div class="panel panel-success">
+                                <div class="panel-heading" role="tab" id="headingFive">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        1x Jug of Additional Academic Entertainment <span class = "pull-right glyphicon glyphicon-plus"></span>
+                                    </a>
+                                </div>
+                                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                    <div class = "well">
+                                        <p><span style ="color: #008080; font-weight: bold">Courses enrolled with Coursera.org:</span><br>Coding Mobile Apps for Entrepreneurs<br>Responsive Web Design<br>Web Application Development: Testing and Deployment<br><br>
+                                            <span style ="color: #008080; font-weight: bold"> Memberships:</span><br> KWSQA (for Quality Assurance)<br> KW Big Data P2P<br> 3D Printing And Design Meetup<br>Canada's Technology Triangle .Net User Group</p>
+                                    </div><!--/well-->    </div>
+                            </div> <!--/panel-success-->
+
+
+
+                        </div> <!--/accordion-->
+                    </div> <!--/aboutDetails-->
+
+                    <!--------------------------/ACCORDION---------------------------->
+
+                </div><!--/row-->
+                <hr>
+
+            </div><!--/container-->
+
+            <div class = "container">
+                <div class ="panel panel-dfault panelSpecial">
+                    <div class = "panel-body">
+                        <!--------------------------Portfolio---------------------------->
+                        <div class = "container" id = "portfolio">
+
+                                <div class = "row">
+
+
+                                    <!--Quail-->
+                                    <div class = "col-md-4">
+                                        <input type="image" alt = "A website for an Edible Pet Project" src="/images/demo2.jpg" class = "img-responsive img-rounded" data-toggle="modal" data-target="#ediblePetModal">
+                                        <div id="ediblePetModal" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                        <h2 class = "text-center modal-title" id="ediblePetModal">Edible Pet Project</h2>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p class = "text-center">The "Edible Pet Project" is an on-going project (seriously!) <br> The idea is to grow my own food (ie: quail eggs), while raising the animals humanely. The site was designed by me, written with a group of students as a small assignment, with HTML and CSS. This was one of my first projects! </p><br>
+                                                        <img class = "img-responsive img-rounded" src = "/images/demo2.jpg" alt = "A larger screenshot for the Edible Pet Project"/>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Fat Cat -->
+
+                                    <div class = "col-md-4">
+                                        <input type="image" alt = "A website dedicated to a VERY fat cat" src="/images/demo1-1.jpg" class = "img-responsive img-rounded" data-toggle="modal" data-target="#catModal">
+
+                                        <div class="modal fade" id="catModal" tabindex="-1" role="dialog" aria-labelledby="catModalLabel">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                        <h2 class = "text-center modal-title" id="catModalLabel">Meet Blacky, he is a VERY fat cat!</h2>
+                                                    </div>
+                                                    <div class="modal-body">
+
+                                                        <p class = "text-center">This is a simple 4-page website, dedicated to my darling cat, who has just celebrated his 15th birthday! The site was written from scratch, with HTML and CSS.</p><br>
+                                                        <img class = "img-responsive img-rounded" src = "/images/demo1-1.jpg" alt = "Page demo of the Fat Cat website"/>
+                                                        <img class = "img-responsive img-rounded" src = "/images/demo1-2.jpg" alt = "Page demo of the Fat Cat website"/>
+                                                        <img class = "img-responsive img-rounded" src = "/images/demo1-3.jpg" alt = "Page demo of the Fat Cat website"/>
+                                                        <img class = "img-responsive img-rounded" src = "/images/demo1-4.jpg" alt = "Page demo of the Fat Cat website"/>
+                                                        <img class = "img-responsive img-rounded" src = "/images/Blacky.jpg" alt = "A photo of Blacky"/>
+
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                               <!--/Fat Cat-->
+
+                                    <!--This site-->
+                                    <div class = "col-md-4">
+                                        <input type="image" alt = "Katie's HIRE ME website!" src="/images/demo5.jpg" class = "img-responsive img-rounded" data-toggle="modal" data-target="#meModal">
+                                        <div id="meModal" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                        <h2 class = "text-center modal-title" id="meModal">Hello from Katie - Care to Hire me? :)</h2>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p class = "text-center">Hi there! This is my personal site, designed to showcase my skills, dreams, and personality. The avatar was made through GIMP, the layout/theme is designed by me with the aid of Bootstrap. The site is written with HTML, CSS, and JQuery. <br><br>Next Step: Clean up the code, and then implement PHP to render files directly from a SQLite database.
+                                                            <br><br>Thank you for visiting! <br> - Katie :)</p><br>
+                                                        <img class = "img-responsive img-rounded" src = "/images/demo5.jpg" alt = "A larger screenshot for the Edible Pet Project"/>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <br>
+
+                                    <!--vegi-->
+
+                                    <div class = "row">
+                                        <div class = "col-md-4">
+                                            <input type="image" alt = "A website dedicated to Asian vegetables" src="/images/demo3.jpg" class = "img-responsive img-rounded" data-toggle="modal" data-target="#VegiModal">
+                                            <div id="VegiModal" class="modal fade" role="dialog">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                            <h2 class = "text-center modal-title" id="VegiModal">Asian Botanic Edibles</h2>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <p class = "text-center">In my attempt to bring Asia to my garden, I am finding out just how hard it is to find the seeds! But hey, nothing can beat the sweet, childhood memories of my taste buds, I'll keep looking :) <br>Written using MVC with MS.NET, graphics are produced with GIMP, Bootstrap theme is copyrighted by Bolt. Site is still under construction.</p><br>
+                                                            <img class = "img-responsive img-rounded" src = "/images/demo3.jpg" alt = "A larger screenshot for the Edible Pet Project"/>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+                                </div><!--/container-->
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+
+                <div class = "container">
+                    <div class = "row" id = "contact">
+                        <br>
+                        <img class = "img-responsive img-rounded" src = "/images/miniMe.png" alt = "A bubble head version of Katie's avatar."/>
+<!--                        <p class ="text-center"><span class = "glyphicon glyphicon-envelope"></span></p> -->
+                        <h1 class = "text-center">
+                        Comments? Feedback? Interested?
+                        </h1>
+                        <h2 class = "text-center">Please drop me a line!<br><span style = "color:#66CDAA">qinyuan823 @ gmail.com</span></h2>
+                    </div>
+                    <br>
+                    <br>
+                    <hr>
+</div>
+                </div><!--/background-->
+
+
+                <!--------------------------Test---------------------------->
+
+                <!--------------------------Test---------------------------->
+
+
+                </body>
+
+            <footer>
+                <div class = "background img-rounded">
+                    <div class = "container text-center">
+                        <p><span class = "glyphicon glyphicon-copyright-mark"></span> Graphics and template designed by Qinyuan (Katie) Zhou 2016</p>
+                    </div><!--background-->
+                </div><!--container-->
+            </footer>
+            </html>
