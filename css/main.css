@@ -1,3 +1,5 @@
+/*-------------general---------------*/
+
 .backgroundGradient{
     background: #FAEBD7;
     background: -webkit-linear-gradient(10deg, #FAEBD7 40%, #66CDAA 10%);
@@ -23,14 +25,6 @@ body{
     border: transparent;
 }
 
-h1, h2 {
-    text-align: center;
-}
-
-img {
-    margin: auto;
-}
-
 .panel{
     background: transparent !important;
     border: none !important;
@@ -40,6 +34,39 @@ img {
 
 .panel-body{
     padding: 0;
+}
+
+img {
+    margin: auto;
+}
+
+.container{
+    padding-top: 40px;
+}
+
+/*-------------font---------------*/
+
+h1:hover{
+    color: #66CDAA;
+}
+
+h1, h3 {
+    color: #008080;
+    padding-top: 10px;
+    font-size: 300%;
+    font-weight: 900;
+    text-align: center;
+}
+
+h2, h4 {
+    text-align: center;
+    color: #5F9EA0 !important;
+    padding-bottom: 10px;
+}
+
+p {
+    color: #5F9EA0;
+    font-size: 120%;
 }
 
 /*-------------nav------------------*/
@@ -59,18 +86,13 @@ img {
 
 a{
     font-size: 160%;
-        font-weight: bold;
-}
-
-
-.navbar a{
-
+    font-weight: bold;
 }
 
 /*-------------banner (welcome/title)------------------*/
 
 .welcome {
-    font-size: 600%;
+    font-size: 300%;
     display: inline-block;
     vertical-align: middle;
     horizontal-align: center;
@@ -89,6 +111,23 @@ a{
     font-weight: bold;
 }
 
+.well{
+    background: #FFFFF0;
+    padding: 5px 20px;
+}
+
+#accordion a{
+    text-decoration: none !important;
+    color: #008080;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#accordion a:hover{
+    text-decoration: none !important;
+    color: #008080;
+}
+
 /*---------portfolio--------*/
 
 .backgroundPaddingPanel > .panel-body{
@@ -98,6 +137,8 @@ a{
     background: #FAEBD7;
 }
 
+
+/*---------footer--------*/
 /*
 .starEdit{
 padding: 10px 15px ;
@@ -107,69 +148,17 @@ color: #66CDAA;
 }
 */
 
-
-h1 {
-    color: #008080;
-    padding-top: 10px;
-    font-size: 300%;
-    font-weight: 900;
-}
-
-.img-responsive {
-    margin: auto;
-}
-
-
-
-h1:hover{
-    color: #66CDAA;
-}
-
-
-
-.aEdit:hover{
-    color: #66CDAA;
-}
-
-.aEdit:visited{
-    color: #008080;
-}
-
-h2{
-    color: #5F9EA0 !important;
-    padding-bottom: 10px;
-}
-
-.accordionModify a{
-    text-decoration: none !important;
-    color: #008080;
-    font-size: 150%;
-    font-weight: bold;
-}
-
-.accordionModify a:hover{
-}
-
 #contact .glyphicon{
     font-size: 50px;
     color:#66CDAA;
-}
-
-
-.well{
-    background: #FFFFF0;
-    padding: 5px 20px;
-}
-
-p {
-    color: #5F9EA0;
-    font-size: 120%;
 }
 
 footer p
 {
     padding:10px;
 }
+
+/*---------media--------*/
 
 
 @media only screen and (max-width: 500px){
@@ -181,35 +170,39 @@ footer p
         vertical-align: top;
     }
 
-        .textContainer {
+    .textContainer {
         height: 20px;
         text-align: center;
     }
-}
-@media only screen and (max-width: 300px){
 
     h2 {
-        color: #5F9EA0;
+        font-size: 150%;
+        padding-bottom: 5px;
+    }
+
+    #contact h3, #contact h4{
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+
+    h2 {
         font-size: 120%;
         padding-bottom: 5px;
     }
 
-    .accordionModify a {
-        font-size: 120%;
+    #accordion a{
+        font-size: 100%;
     }
 
     p{
         font-size: 100%;
     }
 
-    #contact h1, #contact h2{
-        font-size: 130%;
+    #contact h3, #contact h4{
+        font-size: 120%;
     }
 
 }
 
-
-
-
-
-/* http://v4-alpha.getbootstrap.com/components/collapse/ */
