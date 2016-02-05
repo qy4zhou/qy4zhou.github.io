@@ -160,40 +160,42 @@
                         <div class = "container" id = "portfolio">
                             <br>
                             <div class = "row">
-
                                 <!--Quail-->
                                 <div class = "col-md-4">
-                                    <input type="image" id ="demo2button" alt = "A website for an Edible Pet Project" src="/images/demo2.jpg" class = "img-responsive img-rounded" data-toggle="modal" data-target="#ediblePetModal">
-                                    <div id="ediblePetModal" class="modal fade" role="dialog">
+                                    <input type="image" id ="demo2" alt = "A website for an Edible Pet Project" src="/images/demo2.jpg" class = "img-responsive img-rounded" data-toggle="modal" data-target="#demoModal">
+                                </div>
+                                <div class = "col-md-4">
+                                    <input type="image" id="demo1" alt = "A website dedicated to a VERY fat cat" src="/images/demo1-1.jpg" class = "img-responsive img-rounded" data-toggle="modal" data-target="#demoModal">
+                                </div>
+                                <div class = "col-md-4">
+                                    <input type="image" id="demo5" alt = "Katie's HIRE ME website!" src="/images/demo5.jpg" class = "img-responsive img-rounded" data-toggle="modal" data-target="#demoModal">
+                                </div>
+                            </div><br>
+                            <div class = "row">
+                                <div class = "col-md-4">
+                                    <input type="image" id="demo3" alt = "A website dedicated to Asian vegetables" src="/images/demo3.jpg" class = "img-responsive img-rounded" data-toggle="modal" data-target="#demoModal">
+                                </div>
+                                <div class = "col-md-4">
+                                    <input type="image" id="demo4" alt = "current project: creating a CMMS for Conestoga College" src="/images/demo4.jpg" class = "img-responsive img-rounded" data-toggle="modal" data-target="#demoModal">
+                                </div>
+                            </div>
+
+                                    <div id="demoModal" class="modal fade" role="dialog">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h2 class = "text-center modal-title" id="ediblePetModal">Edible Pet Project</h2>
+                                                    <h2 class = "text-center modal-title title2 hideContent" id="demoModal">Edible Pet Project</h2>
+                                                    <h2 class = "text-center modal-title title1 hideContent" id="demoModal">Meet Blacky, he is a VERY fat cat!</h2>
+                                                    <h2 class = "text-center modal-title title5 hideContent" id="demoModal">Hello from Katie - Are you looking for an UI/UX Developer? :)</h2>
+                                                    <h2 class = "text-center modal-title title3 hideContent" id="demoModal">Asian Botanic Edibles</h2>
+                                                    <h2 class = "text-center modal-title title4 hideContent" id="demoModal">Computerized Maintenance Management System (CMMS)</h2>
                                                 </div>
-                                                <div class="modal-body" id = "demo2">
+                                                <div class="modal-body content2 hideContent">
                                                     <p class = "text-center">The "Edible Pet Project" is an on-going project (seriously!) <br> The idea is to grow my own food (ie: quail eggs), while raising the animals humanely. The site was designed by me, written with a group of students as a small assignment, with HTML and CSS. This was one of my first projects! </p><br>
                                                     <img class = "img-responsive img-rounded" src = "/images/demo2.jpg" alt = "A larger screenshot for the Edible Pet Project"/>
                                                 </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Fat Cat -->
-                                <div class = "col-md-4">
-                                    <input type="image" alt = "A website dedicated to a VERY fat cat" src="/images/demo1-1.jpg" class = "img-responsive img-rounded" data-toggle="modal" data-target="#catModal">
-                                    <div id="catModal" class="modal fade" role="dialog">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h2 class = "text-center modal-title" id="catModal">Meet Blacky, he is a VERY fat cat!</h2>
-                                                </div>
-                                                <div class="modal-body">
+                                                <div class="modal-body content1 hideContent">
                                                     <p class = "text-center">This is a simple 4-page website, dedicated to my darling cat, who has just celebrated his 15th birthday! The site was written from scratch, with HTML and CSS.</p><br>
                                                     <img class = "img-responsive img-rounded" src = "/images/demo1-1.jpg" alt = "Page demo of the Fat Cat website"/>
                                                     <img class = "img-responsive img-rounded" src = "/images/demo1-2.jpg" alt = "Page demo of the Fat Cat website"/>
@@ -201,73 +203,16 @@
                                                     <img class = "img-responsive img-rounded" src = "/images/demo1-4.jpg" alt = "Page demo of the Fat Cat website"/>
                                                     <img class = "img-responsive img-rounded" src = "/images/Blacky.jpg" alt = "A photo of Blacky"/>
                                                 </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--This site-->
-                                <div class = "col-md-4">
-                                    <input type="image" alt = "Katie's HIRE ME website!" src="/images/demo5.jpg" class = "img-responsive img-rounded" data-toggle="modal" data-target="#meModal">
-                                    <div id="meModal" class="modal fade" role="dialog">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h2 class = "text-center modal-title" id="meModal">Hello from Katie - Care to Hire me? :)</h2>
-                                                </div>
-                                                <div class="modal-body">
+                                                <div class="modal-body content5 hideContent">
                                                     <p class = "text-center">Hi there! This is my personal site, designed to showcase my skills, dreams, and personality. The avatar was made through GIMP, the layout/theme is designed by me with the aid of Bootstrap. The site is written with HTML, CSS, and JQuery.
                                                         <br><br>Thank you for visiting! <br> - Katie :)</p><br>
                                                     <img class = "img-responsive img-rounded" src = "/images/demo5.jpg" alt = "A larger screenshot for the Edible Pet Project"/>
                                                 </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!--row-->
-                            <br>
-
-                            <!--new row, vegi-->
-                            <div class = "row">
-                                <div class = "col-md-4">
-                                    <input type="image" alt = "A website dedicated to Asian vegetables" src="/images/demo3.jpg" class = "img-responsive img-rounded" data-toggle="modal" data-target="#VegiModal">
-                                    <div id="VegiModal" class="modal fade" role="dialog">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h2 class = "text-center modal-title" id="VegiModal">Asian Botanic Edibles</h2>
-                                                </div>
-                                                <div class="modal-body">
+                                                <div class="modal-body content3 hideContent">
                                                     <p class = "text-center">In my attempt to bring Asia to my garden, I am finding out just how hard it is to find the seeds! But hey, nothing can beat the sweet, childhood memories of my taste buds, I'll keep looking :) <br>Written using MVC with MS.NET, graphics are produced with GIMP, Bootstrap theme is copyrighted by Bolt. Site is still under construction.</p><br>
                                                     <img class = "img-responsive img-rounded" src = "/images/demo3.jpg" alt = "A larger screenshot for the Edible Pet Project"/>
                                                 </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--CMMS-->
-                                <div class = "col-md-4">
-                                    <input type="image" alt = "current project: creating a CMMS for Conestoga College" src="/images/demo4.jpg" class = "img-responsive img-rounded" data-toggle="modal" data-target="#CMMSModal">
-                                    <div id="CMMSModal" class="modal fade" role="dialog">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h2 class = "text-center modal-title" id="CMMSModal">Computerized Maintenance Management System (CMMS)</h2>
-                                                </div>
-                                                <div class="modal-body">
+                                                <div class="modal-body content4 hideContent">
                                                     <p class = "text-center">
                                                         I am working on a team to develop a Computerized Maintenance Management System for Conestoga College. It involves 18 schools across 4 campuses and 1200 machines. The system will be used to track the schools' machine-related inventory, work requests, maintenance schedule, and reports. This project is being developed in an agile environment, on a Microsoft platform (ie MS SQL and Visual Studio).
                                                     </p><br>
@@ -279,6 +224,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div><!--row-->
                         </div><!--container-->
                     </div><!--panel-body-->
@@ -316,8 +262,27 @@
                     $("#welcome").hide();
                     $("#aboutDetails").show();
                 });
-            });
-
+                    $("#demo5").click(function (){
+                        $(".hideContent").show();
+                        $(".hideContent").not(".content5, .title5").hide();
+                    });
+                    $("#demo1").click(function (){
+                        $(".hideContent").show();
+                        $(".hideContent").not(".content1, .title1").hide();
+                    });
+                    $("#demo2").click(function (){
+                        $(".hideContent").show();
+                        $(".hideContent").not(".content2, .title2").hide();
+                    });
+                    $("#demo3").click(function (){
+                        $(".hideContent").show();
+                        $(".hideContent").not(".content3, .title3").hide();
+                    });
+                    $("#demo4").click(function (){
+                        $(".hideContent").show();
+                        $(".hideContent").not(".content4, .title4").hide();
+                    });
+                });
         </script>
     </body>
 
