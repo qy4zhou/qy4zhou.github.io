@@ -130,11 +130,15 @@ a{
 
 /*---------portfolio--------*/
 
-.#portfolio > .panel-body{
-    padding-top: 20px;
+#portfolio > .panel-body{
+    padding-top: 50px;
     padding-bottom: 20px;
     padding-left: 20px;
     background: #FAEBD7;
+}
+
+#portfolio .row{
+    padding: 10px;
 }
 
 
