@@ -124,7 +124,7 @@
                                 <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                                     <div class = "well">
                                         <p><span class = "subtitle"> Microsoft:</span> Visual Studio (WPF, MS.NET), SQL, Visual Paradigm, Word, Excel, PowerPoint, Publisher, Project, Visio <br><br>
-                                            <span class = "subtitle"> Open Source/Others:</span> GitHub, OpenShift, SQLite GIMP, PaintShop Pro, OsTicket, CODAPPS, PhoneGap, Bootstrap, Brackets</p>
+                                            <span class = "subtitle"> Open Source/Others:</span> GitHub, OpenShift, SQLite, Adobe Photoshop, GIMP, PaintShop Pro, OsTicket, CODAPPS, PhoneGap, Bootstrap, Brackets</p>
                                     </div><!--/well-->
                                 </div><!--/collapseFour-->
                             </div> <!--/panel-success-->
@@ -162,7 +162,10 @@
                             <br>
                             <div class = "row">
                                 <!--Demo-->
-                                <div class = "col-md-4  col-md-offset-4">
+                                <div class = "col-md-4  col-md-offset-2">
+                                    <input type="image" id="demo2" alt = "Graphics designed by Katie" src="/images/demoArt-1.png" class = "demo img-responsive img-rounded" data-toggle="modal" data-target="#demoModal">
+                                </div>
+                                <div class = "col-md-4">
                                     <input type="image" id="demo5" alt = "Katie's HIRE ME website!" src="/images/demo5.jpg" class = "demo img-responsive img-rounded" data-toggle="modal" data-target="#demoModal">
                                 </div>
                             </div>
@@ -192,6 +195,10 @@
                                             <img class = "img-responsive img-rounded" src = "/images/demo1-3.jpg" alt = "Page demo of the Fat Cat website"/>
                                             <img class = "img-responsive img-rounded" src = "/images/demo1-4.jpg" alt = "Page demo of the Fat Cat website"/>
                                             <img class = "img-responsive img-rounded" src = "/images/Blacky.jpg" alt = "A photo of Blacky"/>
+                                        </div>
+                                        <div class="modal-body hideContent content2">
+                                            <p class = "text-center">Graphics are designed with GIMP and Adobe Photoshop.</p><br>
+                                            <img id ="hoverWitch" class = "img-responsive img-rounded" src = "/images/demoArt-1-2.png" alt = "Photoshop magic - graphic demo"/>
                                         </div>
                                         <div class="modal-body hideContent content5">
                                             <p class = "text-center">Hi there! This is my personal site, designed to showcase my skills, dreams, and personality. The avatar was made through GIMP, the layout/theme is designed by me with the aid of Bootstrap. The site is written with HTML, CSS, and JQuery.
@@ -253,6 +260,7 @@
                     var demoID = $(this).attr("id");
                     var titleById = {
                         demo1: "Meet Blacky, he is a VERY fat cat!",
+                        demo2: "Graphics by Katie",
                         demo3: "Asian Botanic Edibles",
                         demo4: "Computerized Maintenance Management System (CMMS)",
                         demo5: "Hello from Katie - Are you looking for an UI/UX Developer?"
@@ -264,6 +272,9 @@
                     $(".hideContent").hide();
                     if (demoID == "demo1"){
                         $(".content1").show();
+                    }
+                    else if (demoID == "demo2"){
+                        $(".content2").show();
                     }
                     else if (demoID == "demo3"){
                         $(".content3").show();
