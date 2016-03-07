@@ -42,9 +42,43 @@ img {
 
 /*
 .container{
-    padding-top: 40px;
+padding-top: 40px;
 }
 */
+/*-------------parallax---------------*/
+
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.parallax_layer{
+    position: aboslute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.parallax_layer--base {
+    transform: translateZ(0);
+}
+
+.parallax_layer--back{
+    transform: translateZ(-1px);
+}
+
+/*-------------parallax layer1---------------*/
+
+.layer1{
+    background-image: url("/images/par1-background.jpg");
+    background-repeat: repeat-x;
+    background-size:contain;
+    min-width: 1500px;
+}
+
 /*-------------font---------------*/
 
 h1:hover{
