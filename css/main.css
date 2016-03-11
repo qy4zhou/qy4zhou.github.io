@@ -48,10 +48,13 @@ padding-top: 40px;
 /*-------------parallax---------------*/
 
 .parallax {
-    perspective: 1px;
+    perspective: 100px;
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
+    padding: 100vh 0;
+        width: 100%;
+
 }
 
 .parallax_layer{
@@ -73,10 +76,10 @@ padding-top: 40px;
 /*-------------parallax layer1---------------*/
 
 .layer1{
-    background-image: url("/images/par1-background.jpg");
+    background-image: url("../images/par1-background1.jpg");
     background-repeat: repeat-x;
     background-size:contain;
-    min-width: 1500px;
+    width: 100%;
 }
 
 /*-------------font---------------*/
