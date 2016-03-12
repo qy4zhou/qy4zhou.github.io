@@ -1,0 +1,105 @@
+
+{
+
+	"expanded:images/par1_monk2.png":"nil",
+	"expanded:images/par1_cloud2.png":"nil",
+	"pref__general__AutoKeyframeProperties":"true",
+	"expanded:images/par1_cloud3.png":"nil",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Down-level\": {\
+   \"timelines\": {\
+\
+   }}\
+}",
+	"expanded:images/par1_cloud1.png":"nil",
+	"expanded:images/par1_smoke1.png":"nil",
+	"HTMLFileName":"animation1.html",
+	"CompZoomFactor":"100",
+	"expanded:images/par1_grass.jpg":"nil",
+	"stage-Default Timeline_playhead_ms":"685",
+	"ShowRulers":"false",
+	"pref__general__FilterNonAnimatedElements":"false",
+	"usedBOM":"false",
+	"viewStartY":"0",
+	"expanded:images/par1_person.png":"nil",
+	"pref__general__AutoKeyframePropertiesArmed":"true",
+	"expanded:images/par1_monk1.png":"nil",
+	"symbol_stage":{
+		"element_${par1_cloud3}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"timelineColor":"0x2f73ad",
+			"timelineTreeOpened":"true",
+			"animationEnabled":"false",
+			"usingMotionPaths":"true",
+			"locked":"false"},
+		"dummyStageParentWidth":"720px",
+		"element_${par1_road}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"false",
+			"timelineColor":"0x63599f"},
+		"dummyStageParentHeight":"522px",
+		"element_${par1_grass}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"timelineColor":"0x91c767"},
+		"element_${par1_smoke2}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${par1_smoke1}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"timelineTreeOpened":"true",
+			"timelineColor":"0x00a9fa",
+			"locked":"false",
+			"animationEnabled":"true",
+			"usingMotionPaths":"true",
+			"invisible":"false"},
+		"defaultStageParentHeight":"522px",
+		"element_${par1_cloud1}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4"},
+		"element_${Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
+		"defaultStageParentWidth":"720px",
+		"element_${par1_temple}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"true",
+			"timelineColor":"0x50bd82"},
+		"element_${par1_cloud2}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096"},
+		"element_${par1_road2}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"timelineColor":"0xceaef4"}},
+	"expanded:images/par1_monk3.png":"nil",
+	"expanded:images/par1_tree_front.png":"nil",
+	"StageZoomFactor":"75",
+	"pixelsPerMs":"0.2",
+	"expanded:images/par1_road.png":"nil",
+	"expanded:images/par1_tree_back.png":"nil",
+	"stage-Default Timeline_mark_ms":"-1",
+	"nextElementColorIndex":"11",
+	"pref__general__GenerateSmoothTransitions":"true",
+	"expanded:images/par1_smoke2.png":"nil",
+	"TransitionIdCounter":"82",
+	"expanded:images/par1_temple.png":"nil"}
